@@ -1,0 +1,13 @@
+﻿158 essais journalises dans reports/flaml_60s.log
+essais par famille : {'lgbm': 59, 'sgd': 19, 'xgboost': 27, 'extra_tree': 8, 'rf': 10, 'xgb_limitdepth': 28, 'lrl1': 7}
+
+Meilleur F1 de validation par famille (F1 = 1 - perte) :
+  xgboost         F1 val = 0.8277   (trouve apres 52.6 s)
+  lgbm            F1 val = 0.8262   (trouve apres 17.8 s)
+  xgb_limitdepth  F1 val = 0.8081   (trouve apres 32.6 s)
+  rf              F1 val = 0.6624   (trouve apres 23.5 s)
+  sgd             F1 val = 0.2787   (trouve apres 41.2 s)
+  extra_tree      F1 val = 0.1302   (trouve apres 14.3 s)
+  lrl1            F1 val = 0.0795   (trouve apres 50.0 s)
+
+Essai gagnant : xgboost {'n_estimators': 333, 'max_leaves': 4, 'min_child_weight': 0.06115052475933034, 'learning_rate': 0.17876820421463074, 'subsample': 0.7335343083405597, 'colsample_bylevel': 0.6874325202145412, 'colsample_bytree': 0.9715496137104597, 'reg_alpha': 0.0022084629913922114, 'reg_lambda': 2.4407106398739207}
